@@ -9,19 +9,20 @@
 <!--/Fonts-->
     <title>Грузоперевозки Ставропольский край</title>
     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-   <header class="header">
+   <header id="about" class="header">
        <div class="container">
            <nav class="nav">
                <div class="logo">ИП Трясцин В. А.</div>
                
                <div class="nav__a">
-                   <a href="">Главная</a>
-                   <a href="">О нас</a>
-                   <a href="">Услуги</a>
-                   <a href="">Галерея</a>
-                   <a href="">Контакты</a>
+                   <a href="#about">Главная</a>
+                   <a href="#nas">О нас</a>
+                   <a href="#services">Услуги</a>
+                   <a href="#galery">Галерея</a>
+                   <a href="#contact">Контакты</a>
                </div>
                
                <div class="nav__phone">
@@ -57,12 +58,8 @@
 <!-- /main   -->
 
 <!--o nas-->
-    <div class="numbers">
-        <h2>
-            01
-        </h2>
-    </div>
-    <div class="block_nas">
+
+    <div id="nas" class="block_nas">
         <div class="container">
             <div class="block_section">
                 <p>О нашей фирме</p>
@@ -103,9 +100,7 @@
 
 <!--/o nas-->
 <!--Premium-->
-<div class="numbers">
-            <h2>02</h2>
-        </div>
+
 <div class="block_prem">
         
         <div class="container">
@@ -166,11 +161,9 @@
 
 <!--/Premium-->
 <!--uslugi-->
-<div class="numbers">
-    <h2>03</h2>
-</div>
 
-<div class="block_section">
+
+<div id="services" class="block_section">
     <p>Услуги - грузоперевозки</p>
     <div class="block_line">
                   
@@ -232,11 +225,9 @@
 </div>
 <!--/uslugi-->
 <!--galery-->
-<div class="numbers">
-    <h2>04</h2>
-</div>
 
-<div class="block_section">
+
+<div id="galery" class="block_section">
     <p>Галерея</p>
     <div class="block_line">
                   
@@ -248,22 +239,149 @@
 </div>
 
 <div class="block_galery">
+  
     <div class="container">
-         <div class="galery_content">
-           <div class="galery_flex">
-                <div class="galery_btn"><img src="img/left.png" alt=""></div>
-                <div class="galery_text"></div>
-                <div class="galery_img"></div>
-                <div class="galery_btn"><img src="img/right.png" alt=""></div>  
-           </div>
-            
-            <div class="galery_score">
-                
+       <div class="block_galery_back"> 
+            <div class="block_galery_con">
+               <div class="galery_left">
+                   <a class="btnL"><img src="img/left.png" alt=""></a>
+               </div>
+               
+               
+               <div class="slider">
+                   <div class="slider_line">
+                       <div class="slide_content">
+                           <div class="slider_text">
+                               <h1>Первая фотокарточка</h1>
+                               <p>Тут текст не имеет смысла, позже он 
+                                поменяется и станет все на свои места,
+                                но всеже нужно чутка подождать</p>
+                           </div>
+                           <img src="img/slide_1.svg" alt="">
+                       </div>
+                       <div class="slide_content">
+                           <div class="slider_text">
+                               <h1>Вторая фотокарточка</h1>
+                               <p>Тут текст не имеет смысла, позже он 
+                                поменяется и станет все на свои места,
+                                но всеже нужно чутка подождать</p>
+                           </div>
+                           <img src="img/slide_2.svg" alt="">
+                       </div>
+                       <div class="slide_content">
+                           <div class="slider_text">
+                               <h1>Третья фотокарточка</h1>
+                               <p>Тут текст не имеет смысла, позже он 
+                                поменяется и станет все на свои места,
+                                но всеже нужно чутка подождать</p>
+                           </div>
+                           <img src="img/slide_3.svg" alt="">
+                       </div>
+                       
+                   </div>  
+               </div>
+               
+               
+               
+               <div class="galery_right">
+                   <a class="btnR"><img src="img/right.png" alt=""></a>
+               </div>
+               
+               <div class="slide_steps">
+                   <div class="circle active"></div>
+                   <div class="circle step"></div>
+                   <div class="circle step"></div>
+               </div>
             </div>
-         </div>
+            </div>
+    </div>
+</div>
+<!--/galery-->
+
+<!--contact-->
+
+<div id="contact" class="block_contact">
+    <div class="container">
+        <div class="contact">
+            <div class="map">
+                <div style="position:relative;overflow:hidden;"><a href="https://yandex.by/mApS/11065/novoaleksandrovsk/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Новоалександровск</a><a href="https://yandex.by/mApS/geo/novoaleksandrovsk/53118989/?ll=41.221070%2C45.495853&utm_medium=mapframe&utm_source=maps&z=13.72" style="color:#eee;font-size:12px;position:absolute;top:14px;">Новоалександровск — Яндекс.Карты</a><iframe class="iframe" src="https://yandex.by/map-widget/v1/-/CCUuJBH~3C" width="100%"  frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+            </div>
+            <div class="contact_content">
+                <h1>Контакты:</h1>
+                <div class="contact_text">
+                    <div class="contact_item">
+                        <img src="img/home.png" alt="">
+                        <h2>Адрес: <p>Став. край г.Новоалександровск ул. Гоголя 43</p></h2>
+                    </div>
+                    <div class="contact_item">
+                        <img src="img/mail.png" alt="">
+                        <h2>Почта:<p>shura.sidorenko.2018@bk.ru</p></h2>
+                    </div>
+                    <div class="contact_item margin">
+                        <img src="img/phone.png" alt="">
+                        <h2>Телефон:<p>8-919(737)-09-45</p> / <p>8-962(448)-99-09</p></h2>
+                    </div>
+                    <a href="" class="btn">Заказать</a>
+                </div>
+                
+                <div class="main_right right">
+                   <div class="main_contact">
+                       <a href=""><img src="img/vk.svg" alt=""></a>
+                       <a href=""><img src="img/insta.svg" alt=""></a>
+                       <a href=""><img src="img/mail.svg" alt=""></a>
+                       <a href=""><img src="img/whatsapp.svg" alt=""></a>
+                   </div>
+               </div>
+            </div>
+        </div>
     </div>
 </div>
 
+<!--/contact-->
+<!--footer-->
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer_content">
+            <div class="footer_nav">
+                <h2>Навигация:</h2>
+                <a href="">Главная</a>
+                <a href="">О нас</a>
+                <a href="">Услуги</a>
+                <a href="">Галерея</a>
+            </div>
+            <div class="footer_contact">
+                <h2>Контакты:</h2>
+                <p>Став. край г.Новоалександровск</p>
+                <p>shura.sidorenko.2018@bk.ru</p>
+                <p><a href="">8-919(737)-09-45</a> <span>/</span> <a href="">8-962(448)-99-09</a></p>
+            </div>
+            <div class="footer_doc">
+                <h2>Документы:</h2>
+                <p>ИНН: <span>261502362708</span></p>
+                <p>ГРНИП:<span>320265100009629</span></p>
+            </div>
+        </div>
+        
+        <div class="footer_soc">
+            <div class="footer_main_contact">
+                       <a href=""><img src="img/vk.svg" alt=""></a>
+                       <a href=""><img src="img/insta.svg" alt=""></a>
+                       <a href=""><img src="img/mail.svg" alt=""></a>
+                       <a href=""><img src="img/whatsapp.svg" alt=""></a>
+            </div>
+        </div>
+        <div class="footer_last">
+            <p>© 2021 WebEinar ©</p>
+        </div>
+        
+        <div class="footer_einar">
+            <p>Сайт создал: </p>
+            <h2><a href="">WebEinar</a></h2>
+        </div>
+    </div>
+</footer>
 
 
 
@@ -294,8 +412,24 @@
 
 
 
-<!--/galery-->
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--/footer-->
+
+<script src="js/slider.js"></script>
 </body>
 </html>
