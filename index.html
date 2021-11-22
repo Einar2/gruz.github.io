@@ -12,17 +12,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-   <header id="about" class="header">
+  
+  <div class="btn_up"><a href="#about" rel='m_PageScroll2id'>></a></div>
+  
+  
+   <header  class="header">
        <div class="container">
            <nav class="nav">
                <div class="logo">ИП Трясцин В. А.</div>
                
                <div class="nav__a">
-                   <a href="#about">Главная</a>
-                   <a href="#nas">О нас</a>
-                   <a href="#services">Услуги</a>
-                   <a href="#galery">Галерея</a>
-                   <a href="#contact">Контакты</a>
+                   <a rel='m_PageScroll2id' href="#about" class="active_a">Главная</a>
+                   <a rel='m_PageScroll2id' href="#nas">О нас</a>
+                   <a rel='m_PageScroll2id' href="#services">Услуги</a>
+                   <a rel='m_PageScroll2id' href="#galery">Галерея</a>
+                   <a rel='m_PageScroll2id' href="#contact">Контакты</a>
                </div>
                
                <div class="nav__phone">
@@ -32,7 +36,7 @@
        </div>
    </header>
 <!--main-->
-   <div class="main">
+   <div class="main " id="about">
        <div class="container">
            <div class="main_content">
                <div class="main_left">
@@ -51,7 +55,7 @@
                </div>
            </div>
            <div class="main_dawn">
-               <a href=""><img src="img/dawn.svg" alt=""></a>
+               <a rel='m_PageScroll2id' href="#nas"><img src="img/dawn.svg" alt=""></a>
            </div>
        </div>
    </div>
@@ -429,7 +433,18 @@
 
 
 <!--/footer-->
-
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery.malihu.PageScroll2id.min.js"></script>
+    
+    <script>
+    (function($){
+        $(window).on("load",function(){
+            $("a[rel='m_PageScroll2id']").mPageScroll2id({
+                offset: 100
+            });
+        });
+    })(jQuery);
+</script>
 <script src="js/slider.js"></script>
 </body>
 </html>

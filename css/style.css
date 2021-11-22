@@ -10,6 +10,20 @@ a{
     text-decoration: none;
 }
 
+.btn_up{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transform: rotate(-90deg);
+    z-index: 1111111;
+}
+
+.btn_up a{
+    color: #FFB800;
+    font-size: 32px;
+    font-weight: 700;
+}
+
 .container{
     width: 100%;
     max-width: 1300px;
@@ -42,15 +56,22 @@ a{
 /*Headers*/
 
 .header{
-    position: absolute;
+    position: fixed;
     width: 100%;
+    height: 70px;
+    background-color: #141621;
+    z-index: 1111;
+     
 }
+
+
 
 .nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 70px;
+   
     
 }
 
@@ -76,11 +97,19 @@ a{
 
 }
 
+.nav__a a.mPS2id-highlight{
+    color: #FFB800;
+}
+
+
+
 .nav__phone a{
     color: #FFB800;
     font-weight: 300;
     font-size: 14px;
 }
+
+
 
 .nav__phone a:hover{
     color: #FFCB44;
