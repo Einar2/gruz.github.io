@@ -245,7 +245,7 @@
     }
     
     .logo {
-        font-size: 18px;
+        font-size: 16px;
     }
     
     
@@ -516,7 +516,27 @@
     
     .footer {
         height: 350px;
-    }    
+    } 
+    
+    .slide_content img{
+        width: 100%;
+    }
+    
+    .footer_last {
+        font-size: 12px;
+    }
+    
+    .footer_einar p{
+        font-size: 12px;
+    }.footer_einar h2 a{
+        font-size: 12px;
+    }
+    
+    .btn_up{
+        width: 20px;
+        height: 20px;
+        font-size: 24px;
+    }
 }
 
 
@@ -524,7 +544,39 @@
 
 
 
-
+@media screen and (max-device-width: 375px){
+    
+    .block_uslugi_content p{
+        width: 300px;
+    }
+    
+    .block_galery_back {
+        height: 350px;
+    }
+    
+    .slide_content {
+        height: 350px;
+    }
+    
+    .block_galery {
+        height: 350px;
+    }
+    
+    .container {
+        padding: 0 10px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
 
 
 
