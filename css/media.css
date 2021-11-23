@@ -163,7 +163,7 @@
         margin-left: 12px;
     }
     
-    .contact_item h2 p{
+    .contact_item h2 a{
         font-size: 12px;
     }
     
@@ -464,7 +464,7 @@
         font-size: 16px;
     }
     
-    .contact_item h2 p {
+    .contact_item h2 a{
         font-size: 10px;
     }
     

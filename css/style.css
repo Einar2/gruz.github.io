@@ -584,14 +584,14 @@ a{
     margin-left: 22px;
 }
 
-.contact_item h2 p{
+.contact_item h2 a{
     font-size: 14px;
     color: #FFB800;
     font-weight: 300;
     margin-left: 5px;
 }
 
-.margin h2 p{
+.margin h2 a{
     margin-right: 5px;
 }
 
