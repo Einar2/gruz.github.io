@@ -1,0 +1,581 @@
+@media screen and (max-device-width: 1300px) {
+    .container{
+        padding: 0 30px;
+    }
+    
+}
+
+
+
+
+
+
+@media screen and (max-device-width: 1100px) {
+/*
+    html,body{
+        overflow-x: hidden;
+    }
+*/
+    
+    .block_uslugi_content{
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .block_uslugi_content p{
+        margin: 10px auto;
+    }
+}
+
+
+@media screen and (max-device-width: 1024px) {
+    .block_nas_content {
+        flex-wrap: wrap;
+        
+    }
+    
+    .nas_content_left{
+        width: 100%;
+        
+    }
+    
+    .nas_content_right{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .nav__a{
+        display: none;
+    }
+    
+    .main {
+        height: 50vh;
+        position: relative;
+    }
+    
+    .main_content {
+        padding-top: 200px;    
+    }
+    
+    
+    .block_nas {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    
+    .nas_content_left{
+        margin-top: 50px;
+    }
+    
+    .main_dawn{
+        position: absolute;
+        left: 50%;
+    }
+    
+    .block_prem{
+        background-size: auto;
+        height: 420px;
+        margin-bottom: 50px;
+    }
+    
+    
+    .block_info_flex{
+        justify-content: center;
+    }
+    
+    
+    .prem_content h1{
+        text-align: center;
+    }
+    
+    .prem_content a{
+        display: block;
+        width: 169px;
+        margin: 0 auto;
+    }
+    
+    
+    .block_uslugi_content img{
+        margin: 0;
+        width: 70%;
+    }
+    
+    .block_uslugi {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .slider_text h1{
+        font-size: 24px;
+    }
+    
+    .slider_text p{
+        widows: 340px;
+    }
+    
+    .contact {
+        margin-top: 50px;
+    }
+    
+    
+    .block_prem_info {
+        padding-top: 50px;
+    }
+    
+    .contact_content {
+        padding: 40px 0 0 40px;
+    }   
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-device-width: 768px){
+    .main_left h1{
+        font-size: 38px;
+    }
+    .main_content {
+        padding-top: 230px;
+    }
+    
+    .main {
+        height: 60vh;
+    }
+    
+    .slider_text{
+        display: none;
+    }
+    
+    .contact_item img{
+        width: 30px;
+    }
+    
+    
+    .contact_item h2{
+        font-size: 12px;
+        margin-left: 12px;
+    }
+    
+    .contact_item h2 p{
+        font-size: 12px;
+    }
+    
+    .contact_content {
+        padding: 15px 0 0 10px;
+    }
+    
+    .contact_content {
+        height: 450px;
+    }
+    
+    .main_contact img{
+        width: 25px;
+        height: 25px;
+    }
+    
+    .main_contact {
+        width: 40px;
+    }
+    
+    
+    .iframe{
+        height: 450px;
+    }
+    
+    .contact {
+        height: 450px;
+    }   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-device-width: 425px){
+    .nas_content_right img{
+        width: 100%;
+    }
+    
+    
+    .main_left  h1{
+        font-size: 18px;
+        width: 240px;
+    }
+    
+    .main_left h2{
+        font-size: 12px;
+        margin-top: 5px;
+        margin-bottom: 17px;
+    }
+    
+    .main {
+        height: 50vh;
+    }
+    
+    .btn {
+        font-size: 12px;
+        padding: 5px 25px;
+    }
+    
+    .main_contact img{
+        width: 15px;
+        height: 15px;
+    }
+    
+    .main_contact{
+        width: 10px;
+    }
+    
+    .main_content {
+        padding-top: 150px;
+    }
+    
+    .logo {
+        font-size: 18px;
+    }
+    
+    
+    .nav__phone a{
+        font-size: 12px;
+    }
+    
+    
+    .nav__phone a:after{
+        width: 100px;
+    }
+    
+    .main_dawn img{
+        width: 10px;
+    }
+    
+    
+    
+    .block_section {
+        font-size: 16px;
+    }
+    
+    .nas_content_left h1{
+        font-size: 16px;
+    }
+    
+    .nas_content_left span{
+        font-size: 13px;
+    }
+    
+    .line{
+        width: 90px;
+        height: .5px;
+        margin-top: 20px;
+    }
+    
+    .row {
+        width: 5px;
+        height: 5px;
+        margin: 20px 5px 0 5px;
+    }
+    
+    .nas_content_left {
+        margin-top: 25px;
+    }
+    
+    .nas_content_left h1{
+        margin-bottom: 10px;
+    }
+    
+    .block_nas {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .nas_content_right {
+        margin-top: 30px;
+    }
+    
+    .prem_content h1{
+        font-size: 16px;
+    }
+    
+    .prem_info_text h2{
+        font-size: 14px;
+    }
+    
+    
+    .block_prem_info img{
+        width: 25px;
+        height: 25px;
+    }
+    
+    
+    .prem_info_text {
+        padding-left: 5px;
+    }
+    
+    .prem_info_text p{
+        font-size: 10px;
+    }
+    
+    .prem_content  a{
+        width: 120px;
+    }
+    
+    .block_prem_info {
+        padding-top: 30px;
+    }
+    
+    .info_flex_two {
+        padding-left: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .block_prem {
+        height: 340px;
+        margin-bottom: 30px;
+    }
+    
+    .block_uslugi_content h1 {
+        font-size: 16px;
+        margin-bottom: 10px;;
+    }
+    
+    .block_uslugi_content p {
+        font-size: 12px;
+        margin: 0 auto;
+    }
+
+    
+    .block_uslugi {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .block_uslugi_content img {
+        width: 100%;
+    }
+    
+    .block_uslugi_content h2{
+        font-size: 14px;
+        margin: 0;
+    }
+    
+    .block_uslugi_content {
+        margin-bottom: 20px;
+    }
+
+    .u_btn h2 {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+    
+    .u_btn img {
+        width: 25px;
+    }
+    .u_btn {
+        right: 40px;    
+    }
+    
+    
+    .block_galery {
+        margin-top: 30px;
+    }
+    
+    .galery_right img{
+        width: 40px;
+    }
+    
+    .galery_left img{
+        width: 40px;
+    }
+    
+    .galery_right {
+        width: 38px;
+        height: 58px;
+    }
+    
+    .galery_left{
+        width: 38px;
+        height: 58px;    
+    }
+    
+    .header {
+        height: 50px;
+    }
+    
+    .nav{
+        height: 50px;
+    }
+    
+    .block_galery_back {
+        height: 450px;
+    }
+    
+    .slide_content {
+        height: 450px;
+    }
+    .block_galery {
+        height: 450px;    
+    }
+    
+    .slide_steps {
+        bottom: 3px;
+    }
+    .map{
+        display: none;
+    }
+    
+    .contact_content {
+        width: 100%;
+    }
+    
+    .main_contact{
+        width: 30px;
+    }
+    
+    .contact_content {
+        height: 300px;    
+    }
+    
+    .contact_item img{
+        width: 20px;
+    }
+    
+    .contact_item {
+        margin-top: 15px;
+    }
+    
+    .footer{
+        margin-top: 0;
+    }
+    
+    .contact_content h1{
+        font-size: 16px;
+    }
+    
+    .contact_item h2 p {
+        font-size: 10px;
+    }
+    
+    .contact {
+        height: 300px;
+        margin-bottom: 30px;
+    }
+    
+    .footer_contact{
+        display: none;
+    }
+    
+    .footer_nav{
+        margin-left: 0;
+    }
+    
+    .footer_doc{
+        margin-left: 70px;
+    }
+    
+    .footer_nav h2 {
+        font-size: 12px;
+    }
+    
+    .footer_nav a {
+        font-size: 12px;
+    }
+    
+    .footer_doc h2 {
+        font-size: 12px;
+    }
+    
+    .footer_doc p{
+        font-size: 12px;
+    }
+    
+    .footer_main_contact img{
+        width: 25px;
+        height: 25px;
+    }
+    
+    .footer_main_contact {
+        margin-top: 0;
+    }
+    
+    .footer_einar {
+        bottom: 10px;
+    }
+    
+    .footer {
+        height: 350px;
+    }    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-device-width: 320px){
+    .block_uslugi_content p{
+        width: 265px;
+    }
+    .main_content {
+        padding-top: 90px;
+    }
+    
+    .main_left h1 {
+        font-size: 14px;
+    }
+    
+    .logo{
+        font-size: 14px;
+    }
+    
+    .nav__phone a{
+        font-size: 10px;
+    }
+    
+    .nav__phone a:after{
+        width: 85px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}

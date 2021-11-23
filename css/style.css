@@ -12,16 +12,34 @@ a{
 
 .btn_up{
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 30px;
+    right: 30px;
     transform: rotate(-90deg);
     z-index: 1111111;
-}
-
-.btn_up a{
+    width: 30px;
+    height: 30px;
+    background-color: #141621;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #FFB800;
     font-size: 32px;
     font-weight: 700;
+    animation: btn_a 1s  ease-in-out;
+}
+
+@keyframes btn_a {
+    0%{
+        right: -50px;
+    }
+    100%{
+        right: 30px;
+    }
+}
+
+.btn_up.mPS2id-highlight{
+    display: none
 }
 
 .container{

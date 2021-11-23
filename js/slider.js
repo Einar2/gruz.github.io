@@ -24,6 +24,35 @@ slide();
 
 
 btnR.addEventListener("click", function(){
+    BL();
+    clearInterval(inter);
+
+})
+
+function skipSlide(){
+    line.style.transform = 'translate(-'+step*width+'px)'
+
+}
+
+btnL.addEventListener("click", function (){
+    step--;
+    if(step < 0){
+        step = blocks.length - 1;
+    }
+    skipSlide();
+    bits.forEach(item =>{
+        item.classList.remove("active");
+        item.classList.add("step");
+    })
+    bits[step].classList.add("active");
+    bits[step].classList.remove("step"); 
+    clearInterval(inter);
+
+
+    
+})
+
+function BL(){
     step++;
     if(step >= blocks.length){
         step = 0;
@@ -35,25 +64,10 @@ btnR.addEventListener("click", function(){
     })
     bits[step].classList.remove("step");
     bits[step].classList.add("active");
-})
-
-function skipSlide(){
-    line.style.transform = 'translate(-'+step*width+'px)'
-
 }
 
-btnL.addEventListener("click", function(){
-    step--;
-    if(step < 0){
-        step = blocks.length - 1;
-    }
-    skipSlide();
-    bits.forEach(item =>{
-        item.classList.remove("active");
-        item.classList.add("step");
-    })
-    bits[step].classList.add("active");
-    bits[step].classList.remove("step");    
 
-    
-})
+
+let inter = setInterval(BL, 5000);
+
+
