@@ -609,6 +609,19 @@
         width: 85px;
     }
     
+    .contact_item p{
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    
+    .prem_info_text p{
+        font-size: 8px;
+    }
+    
+    .main_content {
+        
+    }
+    
     
     
     
