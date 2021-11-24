@@ -86,24 +86,9 @@ a{
      
 }
 
-.HeaderAnim{
-   animation: header 1s ease-in-out; 
-}
 
-@keyframes header{
-    0%{
-        position: fixed;
-        top: 0;
-        background-color: #141621;
-    }
-    
-    100%{
-        position: absolute;
-        top: -100px;
-        background-color: #141621;
 
-    }
-}
+
 
 
 .HActive{

@@ -311,12 +311,12 @@
     }
     
     .block_nas {
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     
     .nas_content_right {
-        margin-top: 30px;
+        margin-top: 50px;
     }
     
     .prem_content h1{
@@ -347,7 +347,7 @@
     }
     
     .block_prem_info {
-        padding-top: 30px;
+        padding-top: 50px;
     }
     
     .info_flex_two {
@@ -357,7 +357,7 @@
     
     .block_prem {
         height: 340px;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
     
     .block_uslugi_content h1 {
@@ -373,7 +373,7 @@
     
     .block_uslugi {
         margin-top: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
     
     .block_uslugi_content img {
@@ -386,7 +386,7 @@
     }
     
     .block_uslugi_content {
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
 
     .u_btn h2 {
@@ -403,7 +403,7 @@
     
     
     .block_galery {
-        margin-top: 30px;
+        margin-top: 50px;
     }
     
     .galery_right img{
@@ -484,7 +484,7 @@
     
     .contact {
         height: 300px;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
     
     .footer_contact{
