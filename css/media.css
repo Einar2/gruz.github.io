@@ -31,9 +31,7 @@
 
 
 @media screen and (max-device-width: 1024px) {
-    .mobile_menu{
-        display: none;
-    }
+    
     
     .block_nas_content {
         flex-wrap: wrap;
