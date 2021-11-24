@@ -112,7 +112,7 @@
     }
     
     .slider_text p{
-        widows: 340px;
+        width: 340px;
     }
     
     .contact {
@@ -127,6 +127,15 @@
     .contact_content {
         padding: 40px 0 0 40px;
     }   
+    
+    .contact_item p{
+        font-size: 16px;
+        margin-left: 5px;
+    }
+    
+    .block_uslugi_content img{
+        height: auto;
+    }
 }
 
 
@@ -206,6 +215,11 @@
 
 
 @media screen and (max-device-width: 425px){
+    
+    .contact_item p{
+        font-size: 12px;
+    }
+    
     .nas_content_right img{
         width: 100%;
     }

@@ -8,7 +8,6 @@ let bits = document.querySelectorAll(".circle");
 
 function slide(){
     width = document.querySelector(".slider").offsetWidth;
-    console.log(width);
     line.style.width = width*blocks.length + "px";
     blocks.forEach(item => {
         item.style.width = width + "px";

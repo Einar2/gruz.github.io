@@ -38,6 +38,8 @@ a{
     }
 }
 
+
+
 .btn_up.mPS2id-highlight{
     display: none
 }
@@ -74,13 +76,60 @@ a{
 /*Headers*/
 
 .header{
-    position: fixed;
+    position: absolute;
     width: 100%;
     height: 70px;
-    background-color: #141621;
-    z-index: 1111;
+    z-index: 11111;
+    transition: all ease;
+    
+
      
 }
+
+.HeaderAnim{
+   animation: header 1s ease-in-out; 
+}
+
+@keyframes header{
+    0%{
+        position: fixed;
+        top: 0;
+        background-color: #141621;
+    }
+    
+    100%{
+        position: absolute;
+        top: -100px;
+        background-color: #141621;
+
+    }
+}
+
+
+.HActive{
+    position: fixed;
+    background-color: #141621;
+    z-index: 1111;
+    animation: hedA 1s ease-in-out;
+
+
+}
+
+.headerAnim{
+}
+
+@keyframes hedA{
+    0%{
+        top: -100px;
+    }
+    
+    100%{
+        top: 0;
+    }
+}
+
+
+
 
 
 
