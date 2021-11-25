@@ -101,6 +101,7 @@ a{
 }
 
 .headerAnim{
+    animation: HedBack 1s ease-in-out;
 }
 
 @keyframes hedA{
@@ -113,6 +114,18 @@ a{
     }
 }
 
+
+@keyframes HedBack{
+    0%{
+        background-color: #141621;
+        position: fixed;
+        top: 0px;
+    }
+    
+    100%{
+        top: -100px;
+    }
+}
 
 
 
@@ -862,7 +875,7 @@ a{
 
 
 .menu_active{
-    animation: mobMenu .51s ease-in-out;
+    animation: mobMenu 1s ease-in-out;
 }
 
 @keyframes mobMenu{
@@ -877,7 +890,7 @@ a{
 
 
 .false_menu{
-    animation: falseMenu .51s ease-in-out;
+    animation: falseMenu 1s ease-in-out;
 }
 
 @keyframes falseMenu{

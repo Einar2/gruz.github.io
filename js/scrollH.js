@@ -4,14 +4,20 @@ let header = document.querySelector(".header");
 window.addEventListener('scroll', function() {
     let y = window.pageYOffset;
     
-    if(y > mainH){
-        if(header.classList.contains("HActive")){
-        }else{
-            header.classList.add("HActive")
+    if(y >= mainH){
+        if(header.classList.contains("HActive") !== true){
+            header.classList.remove("headerAnim");
+            header.classList.add("HActive");
         }
+        else{}
     }
     else{
-        header.classList.remove("HActive");     
+        if(header.classList.contains("HActive") == true){
+            header.classList.add("headerAnim");
+        }
+        
+        header.classList.remove("HActive");
+        
     }
 })
   
