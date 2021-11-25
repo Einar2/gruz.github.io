@@ -573,6 +573,9 @@
         height: 20px;
         font-size: 24px;
     }
+    .margin{
+        margin-bottom: 0;
+    }
 }
 
 

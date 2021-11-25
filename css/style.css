@@ -638,6 +638,10 @@ a{
     margin-left: 5px;
 }
 
+.margin_item a{
+    margin-right: 5px;
+}
+
 .margin h2 a{
     margin-right: 5px;
 }
